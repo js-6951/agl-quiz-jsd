@@ -1,5 +1,5 @@
 name: agl_quiz_jsd
-description: A new Flutter project.
+description: This is a Flutter app which displays my name.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
