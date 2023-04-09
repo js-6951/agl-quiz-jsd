@@ -1,0 +1,11 @@
+/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/debug/bundle/agl_quiz_jsd
+/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
+/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf

@@ -1,8 +1,8 @@
-# Install script for directory: /home/jas/agl-app/agl-quiz-jsd/linux
+# Install script for directory: /home/jas/agl3/app/agl-quiz-jsd/linux
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/bundle")
+  set(CMAKE_INSTALL_PREFIX "/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,95 +39,95 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   
-  file(REMOVE_RECURSE "/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/bundle/")
+  file(REMOVE_RECURSE "/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/bundle/")
   
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/bundle/agl_quiz_jsd" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/bundle/agl_quiz_jsd")
+  if(EXISTS "$ENV{DESTDIR}/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/bundle/agl_quiz_jsd" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/bundle/agl_quiz_jsd")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/bundle/agl_quiz_jsd"
+         FILE "$ENV{DESTDIR}/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/bundle/agl_quiz_jsd"
          RPATH "$ORIGIN/lib")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/bundle/agl_quiz_jsd")
+   "/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/bundle/agl_quiz_jsd")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/bundle" TYPE EXECUTABLE FILES "/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/intermediates_do_not_run/agl_quiz_jsd")
-  if(EXISTS "$ENV{DESTDIR}/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/bundle/agl_quiz_jsd" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/bundle/agl_quiz_jsd")
+file(INSTALL DESTINATION "/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/bundle" TYPE EXECUTABLE FILES "/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/intermediates_do_not_run/agl_quiz_jsd")
+  if(EXISTS "$ENV{DESTDIR}/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/bundle/agl_quiz_jsd" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/bundle/agl_quiz_jsd")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/bundle/agl_quiz_jsd"
-         OLD_RPATH "/home/jas/agl-app/agl-quiz-jsd/linux/flutter/ephemeral:"
+         FILE "$ENV{DESTDIR}/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/bundle/agl_quiz_jsd"
+         OLD_RPATH "/home/jas/agl3/app/agl-quiz-jsd/linux/flutter/ephemeral:"
          NEW_RPATH "$ORIGIN/lib")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/snap/flutter/current/usr/bin/strip" "$ENV{DESTDIR}/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/bundle/agl_quiz_jsd")
+      execute_process(COMMAND "/snap/flutter/current/usr/bin/strip" "$ENV{DESTDIR}/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/bundle/agl_quiz_jsd")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/bundle/data/icudtl.dat")
+   "/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/bundle/data/icudtl.dat")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/bundle/data" TYPE FILE FILES "/home/jas/agl-app/agl-quiz-jsd/linux/flutter/ephemeral/icudtl.dat")
+file(INSTALL DESTINATION "/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/bundle/data" TYPE FILE FILES "/home/jas/agl3/app/agl-quiz-jsd/linux/flutter/ephemeral/icudtl.dat")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/bundle/lib/libflutter_linux_gtk.so")
+   "/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/bundle/lib/libflutter_linux_gtk.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/bundle/lib" TYPE FILE FILES "/home/jas/agl-app/agl-quiz-jsd/linux/flutter/ephemeral/libflutter_linux_gtk.so")
+file(INSTALL DESTINATION "/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/bundle/lib" TYPE FILE FILES "/home/jas/agl3/app/agl-quiz-jsd/linux/flutter/ephemeral/libflutter_linux_gtk.so")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   
-  file(REMOVE_RECURSE "/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/bundle/data/flutter_assets")
+  file(REMOVE_RECURSE "/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/bundle/data/flutter_assets")
   
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/bundle/data/flutter_assets")
+   "/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/bundle/data/flutter_assets")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/bundle/data" TYPE DIRECTORY FILES "/home/jas/agl-app/agl-quiz-jsd/build//flutter_assets")
+file(INSTALL DESTINATION "/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/bundle/data" TYPE DIRECTORY FILES "/home/jas/agl3/app/agl-quiz-jsd/build//flutter_assets")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xRuntimex" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/bundle/lib/libapp.so")
+   "/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/bundle/lib/libapp.so")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/bundle/lib" TYPE FILE FILES "/home/jas/agl-app/agl-quiz-jsd/build/lib/libapp.so")
+file(INSTALL DESTINATION "/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/bundle/lib" TYPE FILE FILES "/home/jas/agl3/app/agl-quiz-jsd/build/lib/libapp.so")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/flutter/cmake_install.cmake")
+  include("/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/flutter/cmake_install.cmake")
 
 endif()
 
@@ -139,5 +139,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

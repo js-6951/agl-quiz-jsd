@@ -1,8 +1,8 @@
-# Install script for directory: /home/jas/agl-app/agl-quiz-jsd/linux/flutter
+# Install script for directory: /home/jas/agl3/app/agl-quiz-jsd/linux/flutter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release/bundle")
+  set(CMAKE_INSTALL_PREFIX "/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release/bundle")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

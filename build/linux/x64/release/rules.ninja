@@ -42,7 +42,7 @@ rule CXX_EXECUTABLE_LINKER__agl_quiz_jsd
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /snap/flutter/130/usr/bin/cmake -S/home/jas/agl-app/agl-quiz-jsd/linux -B/home/jas/agl-app/agl-quiz-jsd/build/linux/x64/release
+  command = /snap/flutter/130/usr/bin/cmake -S/home/jas/agl3/app/agl-quiz-jsd/linux -B/home/jas/agl3/app/agl-quiz-jsd/build/linux/x64/release
   description = Re-running CMake...
   generator = 1
 
